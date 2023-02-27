@@ -1,0 +1,14 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "antfu/if-newline": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/comma-dangle": ["error", "never"],
+    "vue/component-tags-order": ["error", {
+      "order": ["template", "script", "style"]
+    }],
+    "vue/script-indent": ["error", 2, {
+      "baseIndent": 1
+    }]
+  }
+}
